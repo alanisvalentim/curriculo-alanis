@@ -1,0 +1,161 @@
+
+/* barra de navegação */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f1f1f
+}
+
+nav> a {
+    font-family: Yanone Kaffeesatz;
+    text-decoration: none;
+    font-size:60px;
+    color: #f1f1f1;
+    padding: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    font-family: Yanone Kaffeesatz;
+    font-size: 150%;
+}
+
+nav ul li {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #ffcb03;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+/* banner */
+
+header {
+    background-image: url('assets/img/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 110px;
+}
+
+h1 {
+    font-family: Pacifico;
+    color: #1f1f1f;
+    background-color: rgba(235, 235, 235, 0.199);
+}
+
+#sobre #botao {
+    background-color: #f1f1f1;
+    color: #4d4d4d;
+}
+
+
+h2 {
+    margin: 0;
+    font-family: Yanone Kaffeesatz;
+    font-weight: 700;
+    color: #1f1f1f;
+}
+
+#botao {
+    font-family: Yanone Kaffeesatz;
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #1f1f1f;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+/* body */
+
+body{
+    font-family: "Open sans";
+    color: #4d4d4d;
+}
+
+#experiencia {
+    margin-top: 50px;
+}
+
+#curiosidades {
+    margin-top:50px;
+}
+
+
+.coluna img {
+    border-radius: 100%;
+    margin-top: 8px;
+}
+
+
+/* aside (sobre mim e contato) */
+
+.alanis {
+    border-radius: 100%;
+    margin-left: 60px;
+}
+
+#contato{
+    margin-top: 720px;
+    text-align: center;
+}
+
+#contato > p > a {
+    text-decoration: none;
+    color: #ffcb03;
+}
+
+#sobre > h2 {
+    margin-block-end: 20px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#sobre {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* footer */
+
+footer {
+    font-family: Yanone Kaffeesatz;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+}
+
